@@ -1,0 +1,30 @@
+Compilar o programa: 
+gcc codigo.cpp -lstdc++ -std=c++11 -lm -O3
+<ou>
+g++ -std=c++11 codigo.cpp
+
+Executar:
+
+./a.out
+
+<Estado Final>
+
+<Estado Inicial>
+
+<Número correspondente ao método de pesquisa pretendido>
+0 - BFS, 1 - DFS, 2 - IDDFS, 3 - GREEDY, 4 - A*
+
+
+Exemplo:
+
+./a.out
+
+1 2 3
+8 0 4
+7 6 5
+
+3 4 2
+5 1 7
+6 0 8
+
+4
